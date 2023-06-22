@@ -15,6 +15,7 @@ LICENSE for the details.
 
 From the top-level directory of the Wine source (which contains this file),
 run:
+sudo apt install mingw-w64 libxcursor-dev:i386 libxi-dev:i386 libxext-dev:i386 libxfixes-dev:i386 libxrandr-dev:i386 libxinerama-dev:i386 libxcomposite-dev:i386 libosmesa6-dev:i386 libwayland-dev:i386 opencl-headers:i386 libpcap-dev:i386 libpcsclite-dev:i386 libdbus-1-dev:i386 libsane-dev:i386 libusb-1.0-0-dev:i386 libgphoto2-dev:i386 libpulse-dev:i386  libudev-dev:i386 libsdl2-dev:i386 libcapi20-dev:i386 libcups2-dev:i386 libfontconfig1-dev:i386 libkrb5-dev:i386 libxrender-dev:i386 libgnutls28-dev:i386 sudo apt-get install libsdl2-dev libasound2-dev libpulse-dev libaudio-dev libjack-dev libx11-xcb-dev libxtst-dev
 
 ./configure
 make
